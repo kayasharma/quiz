@@ -20,6 +20,20 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Create ENV file
+
+# Add your Gemini API key here
+GEMINI_API_KEY="Your Api Key"
+
+# JWT Secret for authentication
+JWT_SECRET="your_jwt_secret_here"
+
+# Database URL (when you add a real database)
+DATABASE_URL=postgresql://postgres:password@localhost:5432/db_name?
+
+# Next.js Environment
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
