@@ -22,16 +22,16 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Create ENV file
 
-# Add your Gemini API key here
+//Add your Gemini API key here
 GEMINI_API_KEY="Your Api Key"
 
-# JWT Secret for authentication
+//JWT Secret for authentication
 JWT_SECRET="your_jwt_secret_here"
 
-# Database URL (when you add a real database)
+//Database URL (when you add a real database)
 DATABASE_URL=postgresql://postgres:password@localhost:5432/db_name?
 
-# Next.js Environment
+//Next.js Environment
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 
 ## Learn More
